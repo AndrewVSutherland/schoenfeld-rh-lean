@@ -1,0 +1,39 @@
+name = "SchoenfeldRH"
+defaultTargets = ["SchoenfeldRH"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "56a005855ea17e0b0958f73ec801ae140b0a1679"
+
+[[lean_lib]]
+name = "SchoenfeldRH"
+globs = ["SchoenfeldRH", "SchoenfeldRH.+"]
+leanOptions = { autoImplicit = false }
+
+# Comparator harness: the Challenge/Solution pair (comparator.json).
+# Not a default target; Solution needs SchoenfeldRH.Main.
+[[lean_lib]]
+name = "Harness"
+roots = ["Challenge", "Solution"]
+leanOptions = { autoImplicit = false }
+
+# The xi function, Hadamard factorization and the digamma series, vendored from https://github.com/AlexKontorovich/PrimeNumberTheoremAnd
+# at a4fb6989b07e9c76b511807ae93e33e25b820e9b (Apache-2.0); see PrimeNumberTheoremAnd/UPSTREAM.md.
+# leanOptions: copied from upstream's package-level [leanOptions] at that commit.
+[[lean_lib]]
+name = "PrimeNumberTheoremAnd"
+globs = ["PrimeNumberTheoremAnd.+"]
+
+[lean_lib.leanOptions]
+pp.unicode.fun = true
+pp.proofs.withType = false
+autoImplicit = false
+relaxedAutoImplicit = false
+warn.sorry = false
+linter.mathlibStandardSet = true
+linter.style.header = false
+linter.style.openClassical = false
+linter.style.longLine = false
+linter.style.emptyLine = false
+linter.flexible = true

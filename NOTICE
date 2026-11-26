@@ -1,0 +1,16 @@
+Schoenfeld's bound for psi is equivalent to the Riemann hypothesis (Lean 4)
+Copyright 2026 Andrew V. Sutherland
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This repository includes files from other projects, each under the Apache License, Version 2.0,
+with their original copyright headers:
+
+  PrimeNumberTheoremAnd/   from https://github.com/AlexKontorovich/PrimeNumberTheoremAnd
+                           (commit a4fb6989b07e9c76b511807ae93e33e25b820e9b), unmodified
+  SchoenfeldRH/Converse/PsiBigO.lean
+                           from https://github.com/AIOvernight/rh-prime-error
+                           (commit c55887da891944dc9f9cc42de53b2216744e746b, file RHPrimeError/Converse.lean),
+                           with a provenance comment prepended
+
+See THIRD_PARTY.md for details.

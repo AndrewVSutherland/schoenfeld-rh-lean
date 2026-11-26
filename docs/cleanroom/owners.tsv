@@ -1,0 +1,9 @@
+p1	SchoenfeldRH/Base/Xi.lean	SchoenfeldRH/Base/Constants.lean	SchoenfeldRH/Lemmas/p1/**
+p2	SchoenfeldRH/Base/Growth.lean	SchoenfeldRH/Lemmas/p2/**
+p3	SchoenfeldRH/Base/Hadamard.lean	SchoenfeldRH/Lemmas/p3/**
+p4	SchoenfeldRH/Base/Digamma.lean	SchoenfeldRH/Lemmas/p4/**
+p5	SchoenfeldRH/ZeroSum/Basic.lean	SchoenfeldRH/Lemmas/p5/**
+p6	SchoenfeldRH/Explicit/Kernel.lean	SchoenfeldRH/Lemmas/p6/**
+p7	SchoenfeldRH/Explicit/Weighted.lean	SchoenfeldRH/Explicit/LogDeriv.lean	SchoenfeldRH/Lemmas/p7/**
+p8	SchoenfeldRH/Explicit/Formula.lean	SchoenfeldRH/Lemmas/p8/**
+p9	SchoenfeldRH/ZeroSum/RealAxis.lean	SchoenfeldRH/Lemmas/p9/**
